@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>"Udacity Lesson Notes</title>
+</head>
+<body>
+	<div class="TOC" style="margin: 10px">
+		<h1>Table of Contents</h1>
+	
+		<ol>
+			<li><a href= "#lesson1">Lesson 1</a></li>
+				<ul>
+					<li><a href="#lesson1-hyperlinks"> Hyperlinks</a></li>
+					<li><a href="#lesson1-formatting"> Formatting</a></li>
+					<li><a href="#lesson1-summary"> Summary</a></li>
+				</ul>
+			</li>
+			<li><a href="#lesson2">Lesson 2</a></li>
+			<ul style="list-style-type: none">
+				<li><a href= "#Lesson2Summary">Summary</a></li>
+			</ul>
+			<li><a href="#lesson3">Lesson 3</a></li>
+			<ul>
+				<li><a href= "#lesson3-notes">Styles and CSS</a></li>
+				<li><a href= "#lesson3-codetestrefine">Code Test Refine</a></li>
+				<li><a href= "#Lesson3Summary">Summary of Lesson 3</a></li>
+			</ul>
+		</ol>
+	</div>
+	<div class="lesson1" id="lesson1" style="background-color: #294860;padding: 15px;margin: 10px; border-radius: 20px;text-align: center"> 
+		<h2>Lesson 1 Notes</h2>
+		<div class="Notes" style="background-color: #DFEAF1;padding: 4px; margin: 10px; border-radius: 4px; color: black; font-size: 18pt;">
+			<div class="lesson1-hyperlinks" id="lesson1-hyperlinks">
+			<h4> <b>Hyper Links</b></H4>
+				<p>Http is browser making requests via the internet to servers</p>
+			</div>
+			<div class="lesson1-formatting" id="lesson1-formatting">
+				<h4>Formatting concepts and how to add links</h4>
+				<b>bold</b>
+				<br><em>italics</em>
+				<p><a href="www.url.com"> URL</a></p>
+				<p>Void Tags = have no content, like images</p>
+				<br> - line break 
+				<P>Content - can be used to line breaks</p> 
+				<span> "span" content</span> inline 
+				<br> div is content in a block 
+				<br>That's right! a,span,br,img, and strong are all inline elements while div,p,and form are block elements.
+				<br>From <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48756004/m-48605783"> Udacity</a>
+			</div>
+		</div>	
+	
+		<div class="lesson1-summary" id="lesson1-summary"style="background-color: #DFEAF1;padding: 4px; margin: 10px; border-radius: 4px; color: black; font-size: 18pt">
+			<h3>Lesson 1 Summary of Concepts</h3>
+					<p>An HTML tag is always contained within angled brackets. Most tags have an opening tag for example) and a closing tag, Some tags (called "void" tags) do not require a closing tag (like the br tag
+					<br>Element: An HTML element refers to everything within a set of opening and closing tags.
+					<br>Attribute: This is a property of an HTML element. For example, to set the href attribute of an anchor tag to the Udacity URL, you would write <a href="www.udacity.com">Udacity</a></P>
+					<p><b>Super important about programming ***it is used to avoid repitions***
+		</div>
+	</div>
+	<div class="lesson2" id="lesson2"style="background-color: #294860;padding: 15px;margin: 10px; border-radius: 20px; text-align: center">
+			<H2><strong>Lesson 2 Notes</strong></h2>
+				<div class="lesson2-notes" id="lesson2-notes2"style="background-color: #DFEAF1; padding: 4px; margin: 10px; border-radius: 4px; color: black; font-size: 18pt"> 
+					<h4>Creating Structured Document in HTML</h4>
+
+					<p>HTML elements are always rectangular, even if they may not look that way.</p>
+					<p>The Head is invisible <a href="https://www.udacity.com/course/viewer#!/c-ud721-nd/l-3555039510/e-2771378558/m-2812578559"> Reference Notes Here</a></p>
+					Sideways triangles are HTML elements, has opening and closing tag
+					<br>Can be text or Elements like span and a 
+
+					<br>HTML - Language - specific syntax and rules
+					<br>HTML has "Tags" ,"tags" ie. p, image or document division. 
+
+					<br>CSS provides style. 
+
+					<br>Document Object Model 
+					- Developer tools shows the DOM Tree 
+
+					<br>Boxify a Design - taking a design and converting it into a boxed layout
+
+					<br>Class attributes are labels on boxes comes after open div tag = "div class="name"" 
+				</div>
+				<div class="Lesson2Summary" id="Lesson2Summary"style="background-color: #DFEAF1;padding: 4px; margin: 10px; border-radius: 4px; color: black; font-size: 18pt">
+				<h3><STRONG>LESSON 2 SUMMARY</STRONG></h3>
+
+				<P> Here's are things that I have walked away with from lesson. One I am understanding Divs and the concept behind them. Its like putting together a puzzle with rectangular pieces. I can definitely start seeing how important it is to create a mockup early on to work with. Lesson two also went over the differences between HTML, CSS and DOM. Also learned how to inspect elements.</p>
+				</div>
+			</div>
+		
+	<div class="lesson3" id="lesson3" style="background-color: #294860;padding: 15px;margin: 10px; border-radius: 20px; text-align: center">
+			<H2><strong>Lesson 3 Notes</strong></h2>
+			<div class="lesson3-notes" id="lesson3-notes"style="background-color: #DFEAF1; padding: 4px; margin: 10px; border-radius: 4px; color: black; font-size: 18pt; text-align: left;"> 
+					<H4>Styles and CSS</H4>
+					Add link to the style file in the head
+					<br>
+					To add press link add file name "style.css"
+					<br>	
+					**Top line of page** !DOCTYPE html
+					<br>
+					You can add this above the "body" tag and get the same effect as create a .css style sheet. 
+					<br>
+					You can have several CSS files - Macro and Mico style definitions
+					Most specific rules apply to the styles. You keep going until you get the most specific information and then it gets applied
+					<br>
+					CSS - first thing you do is apply a selector 
+					For paragraph it would be p{ }
+					For class add a "." before the element name
+					<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference">Link to CSS documentation</a>
+					<br>
+					To make bold in CSS use font-weight You can also write CSS inline with your code
+					<br>
+					<h4>The Box model</h4>
+					<img src="img/padimage.png" alt="Padding Image">
+					<br>
+					<br>Content is the very center - what is being displayed. Like the nucleus 
+					<br>Padding is around the content and is following whatever is in the background
+					<br>Border is around the padding like the edge of paper
+					<br>Margin is transparent and the space behind it is inivible like white space 
+					<p> To get dimensions of an element  width would be left border, padding, content, right padding and right border </P>
+
+					<br>Box sizing creates a border and box - which is border and padding. Does not include margin
+
+					<br>For Older browsers there are browser specific prefixes
+					<br>Add this information to the top of the CSS file 
+					<br>/*CSS - *{
+					<br>	-webkit-Box-sizing: border-box;
+								Width: 460px
+					<br>	-moz-Box-sizing: border-box;
+								Width: 460px
+					<br>	-ms-Box-sizing: border-box;
+								Width: 460px
+					<br>	Box-sizing: border-box;
+					<br>		Width: 460px}
+					<br>	*/
+	
+					<br>Boxes can also be the % 
+
+					<br>To get a outlines around all divs(used for debugging) - 
+
+						/*
+					<br>* {
+					   outline: 1px solid red !important;
+						}*/
+
+					<br>Using CSS to move boxes
+					<br>
+					Flex Box layout 
+					<br>In the parent DIV put display: flex
+					<br>Code Test Refine 
+					<br>Structure
+					<br>Tags
+					<br>Box Sizes
+					<br>And How to position where on page 
+					<br>
+						<div class="lesson3-codetestrefine" id="lesson3-codetestrefine" style="text-align: center; font-weight: bold;">
+							<h4>Code, Test, Refine</h4>
+							<ol style="text-align:left;">
+								<li>Look for Natural Boxes</li>
+								<li>Look for Repeated Styes and Semantics Elements</li>
+								<li>Write the HTML</li>
+								<li>Apply Styles (from Biggest to Smallest)</li>
+								<li>Refine until good - Work on small details</li>
+							</ol>
+						</div>
+
+					<h4>Verifying HTML and CSS</h4>
+					<br><a href="http://validator.w3.org/#validate_by_input">To verify HTML</a>
+					<br><a href="http://jigsaw.w3.org/css-validator/#validate_by_input">To verify CSS</a><br>User developer tools to apply testing and so forth.
+				</div>
+				<div class="Lesson3Summary" id="Lesson3Summary"style="background-color: #DFEAF1;padding: 4px; margin: 10px; border-radius: 4px; color: black; font-size: 18pt">
+				<h3><STRONG>LESSON 3 SUMMARY</STRONG></h3>
+
+				<P> Its going to take a lot of patience and time to get this formatting and stylizing right. But using the verication and the HTML services should make it much more bareable	.</p>
+				</div>
+
+		</div>
+
+
+
+	</body>
+</html>
+
